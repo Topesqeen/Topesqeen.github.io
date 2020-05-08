@@ -24,22 +24,22 @@ const questions = [
   },
   {
     q:'Who is the President of Nigeria"?',
-    options:['Muhamadul Buhari','Barrack Obama','Goodlock Jonathan','all the above'],
+    options:['Barrack Obama','Muhamadul Buhari','Goodlock Jonathan','all the above'],
     answer:1
   },
   {
     q:'Is Noun a part of speeck"?',
-    options:['No','Maybe','Yes','All of the above'],
+    options:['No','Maybe','It not clear','Yes'],
     answer:3
   },
   {
     q:'Which year Nigerai got her Independent"?',
-    options:['1960','1982','2000','2003'],
+    options:['1982','1960','2000','2003'],
     answer:1
   },
   {
     q:'How is the creator of google"?',
-    options:['Bill Gates','Mark Zugerburg','Wole Shoyinka','All of the Above'],
+    options:['Mark Zugerburg','Bill Gates','Wole Shoyinka','All of the Above'],
     answer:1
   }
 ]
