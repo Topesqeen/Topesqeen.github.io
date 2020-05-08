@@ -23,23 +23,23 @@ const questions = [
     answer:0
   },
   {
-    q:'How do  cal a function named "myFunction"?',
-    options:['myFunction()','call myFunction()','call function myFunctionhjy','all the above'],
+    q:'Who is the President of Nigeria"?',
+    options:['Muhamadul Buhari','Barrack Obama','Goodlock Jonathan','all the above'],
     answer:1
   },
   {
-    q:'How do you cal a function named "myFunction"?',
-    options:['myFunction()','call myFunction()','call function myFunction','all the above'],
+    q:'Is Noun a part of speeck"?',
+    options:['No','Maybe','Yes','All of the above'],
     answer:3
   },
   {
-    q:'How do you cal a function "myFunction"?',
-    options:['myFunction()','call myFunction()','call function myFunction','all the above'],
+    q:'Which year Nigerai got her Independent"?',
+    options:['1960','1982','2000','2003'],
     answer:1
   },
   {
-    q:'How you cal a function named "myFunction"?',
-    options:['myFunction()','call myFunction()','call function myFunction','all the above'],
+    q:'How is the creator of google"?',
+    options:['Bill Gates','Mark Zugerburg','Wole Shoyinka','All of the Above'],
     answer:1
   }
 ]
