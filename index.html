@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Quiz</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="question-number">
+      <h3>Question <span class="question-num-value">1</span> of <span class="total-question"></span></h3>
+    </div>
+    <div class="question">
+      How do you declare a Javascript variable?
+    </div>
+    <div class="options">
+      <div id="0" class="option1" onclick="check(this)">variable carName</div>
+      <div id="1" class="option2" onclick="check(this)">var carName</div>
+      <div id="2" class="option3" onclick="check(this)">v carName</div>
+      <div id="3" class="option4" onclick="check(this)">None of these</div>
+    </div>
+    <div class="button">
+      <button type="button" class="btn" onclick="next()">Next</button>
+    </div>
+    <div class="answers-tracker">
+      <!-- <div class=""></div>
+      <div class=""></div>
+      <div></div> -->
+    </div>
+  </div>
+  <div class="quiz-over">
+    <div class="box">
+      <h1>Good Try! You Got <span class="correct-answer"></span> out of <span class="total-question2"></span> answers correct! <br> Thats <span class="percentage"></span></h1>
+      <button type="button" onclick="tryAgain()">Try Again</button>
+    </div>
+  </div>
+
+  <script src="task.js"></script>
+</body>
+</html>
